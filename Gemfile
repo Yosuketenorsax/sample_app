@@ -56,3 +56,6 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+group :test, :development do
+    gem "rapec-rails", "~> 2.14"
+end
